@@ -177,7 +177,6 @@ ol {
   flex-direction: column;
   height: 298px;
   overflow: auto;
-  overflow-x: hidden;
   gap: 30px;
 }
 
@@ -224,6 +223,8 @@ ol {
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .content__video-card-description {
@@ -245,6 +246,7 @@ ol {
 .content__video-card-description-container {
   flex-grow: 1;
   padding: 3px 0 3px 3px;
+  overflow: hidden;
 }
 
 .visually-hidden {
